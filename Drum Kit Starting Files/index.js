@@ -1,10 +1,10 @@
 //detecting button click
 
-var len=document.querySelectorAll(".drum").length
+var len=$(".drum").length
 
 for(var i=0;i<len ;i++){
 
- document.querySelectorAll(".drum")[i].addEventListener("click", function () {
+ $(".drum").addEventListener("click", function () {
 
     var buttonInnerHtml = this.innerHTML;//stores the clicked value on console like "w","a"..
 
